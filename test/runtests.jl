@@ -8,6 +8,8 @@ using JET
         Aqua.test_all(AeroCalc)
     end
     @testset "Code linting (JET.jl)" begin
-        JET.test_package(AeroCalc; target_defined_modules = true)
+        if VERSION >= v"1.10"
+            JET.test_package(AeroCalc; target_defined_modules = true)
+        end
     end
 end
