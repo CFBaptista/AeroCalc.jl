@@ -1,0 +1,7 @@
+name = "AeroCalc"
+uuid = "9c62f5fe-7749-4b15-8a44-af93960b742b"
+authors = ["Carlos Fernando Baptista <cfd.baptista@gmail.com>"]
+version = "0.1.0-DEV"
+
+[compat]
+julia = "1.6.7"
